@@ -1,0 +1,56 @@
+.project_header{
+	width: 700px;
+	margin:0 auto;
+    height: 110px;
+	border-radius: 3px;
+}
+.item_name{
+	float: left;
+	width: 750px;
+	height: 20px;
+	margin-left: 10px;
+	font-weight: bolder;
+	color:#007310;
+	
+	border-radius: inherit;
+}
+.pname{
+	margin-left: 110px;
+}
+.project_add{
+
+	width: 700px;
+	height: 860px;
+	margin:0 auto;
+
+}
+.infor{
+	margin-left: 10px;
+	font-weight: bolder;
+	font-size:20px;
+}
+.mytable{
+	width: 700px;
+	height: 500px;
+	margin-left: 20px;
+}
+textarea{
+	width: 445px;
+	height: 30px;
+	resize:none;
+	overflow-y:scroll; 
+}
+td{
+    font-size: 13px;
+
+
+}
+.submit_btn{
+    clear: left;
+    margin-left: 300px;
+    padding:10px 30px;
+	margin-top: 50px;
+	background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+}	

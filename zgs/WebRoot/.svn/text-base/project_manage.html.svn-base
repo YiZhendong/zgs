@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/index.css">
+
+<link rel="stylesheet" type="text/css" href="css/application.css">
+<link rel="stylesheet" type="text/css" href="css/easyui.css">
+<link rel="stylesheet" type="text/css" href="css/icon.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/tab.js" type="text/javascript"></script>
+
+
+
+<title>自贡市项目管理信息系统-项目管理</title>
+</head>
+
+<body>
+<div class="header">
+  <h2 class="logo">自贡市项目管理系统</h2>
+
+</div>    
+ 
+<div class="nav"> 
+  <ul class="nav_first">
+    <li>项目管理
+      <ul class="nav_second">
+        <li>全部项目</li>
+        <li>个人发布</li>
+        <li>添加项目</li>
+        <li>项目审批</li>
+       
+      </ul>      
+    </li>
+    <li>报表查看</li>
+    <li>个人办公
+      <ul class="nav_second">
+        <li>通讯录</li>
+        <li>个人日志</li>
+        <li>收藏夹</li>
+      </ul>
+    </li>
+    <li>个人信息
+      <ul class="nav_second">
+        <li>个人信息查看</li>
+        <li>个人信息修改</li>
+        </ul>
+    </li>
+  </ul>
+</div>
+
+ 
+<div class="container_24 container">
+  <div class="grid_3 nav_left alpha">
+    <ul>
+      <a href="#"><li class="tabli tabIn">全部项目</li></a>
+      <a href="#"><li class="tabli">个人发布</li></a>
+      <a href="#"><li class="tabli">添加项目</li></a>
+      <a href="#"><li class="tabli">项目审批</li></a>
+    </ul>
+  </div>
+  <div class="grid_20 content_right">
+    <!-- 全部项目 -->
+    <div class="inner tabCont" >
+      <p class="content_title">全部项目</p>
+      <table class="table_project">
+        <tr><th class="project_title">项目名</th><th class="project_intro">简介</th><th class="project_risk">等级</th><th class="project_sta">状态</th><th class="project_fav">收藏</th></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+      </table>
+    </div>
+    
+    <!-- 个人发布项目 -->
+    <div class="inner" >
+      <p class="content_title">个人发布项目</p>
+      <table class="table_project">
+        <tr><th class="project_title">项目名</th><th class="project_intro">简介</th><th class="project_risk">等级</th><th class="project_sta">状态</th><th class="project_fav">收藏</th></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+      </table>
+    </div>
+    
+    <!-- 添加项目 -->
+    <div class="inner" >
+      <p class="content_title">申请新项目</p>
+      
+      <form>
+      <div class="project_header">
+	    <p class="item_name">项目名称</p>
+		<input type="text" class="pname" placeholder="请输入项目名称" size="60">
+		<input type="button" class="test" value="重复检测">
+      </div>
+      <div class="project_add">
+        <p class="item_name">项目储备信息</p>
+        <table class="mytable">
+          <tr>
+            <td class="td">项目类型：</td>
+            <td class="td"><select >
+        	<option value="null">（未选择）</option>
+            <option value="1">类型1</option>
+            <option value="2">类型2</option>
+            </select></td>
+            <td>项目金额：</td>
+            <td><input type="text">（万元）</td>
+          </tr>
+        
+       	  <tr>
+            <td>完成情况：</td>
+            <td colspan="3"><textarea></textarea></td>
+          </tr>
+        
+          <tr>
+            <td>项目简介：</td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>建设地点：</td>
+            <td><input type="text"></td>
+          </tr>
+        
+          <tr>
+            <td>开始时间：</td>
+            <td><input class="easyui-datebox" style="width:150px;height:30px;"></input></td>
+            <td>结束时间：</td>
+            <td><input class="easyui-datebox" style="width:150px;height:30px;"></input></td>
+          </tr>
+        
+          <tr>
+            <td>项目内容：</td>
+            <td colspan="3"><textarea></textarea></td> 
+          </tr>
+       
+          <tr>
+            <td>项目成果概述：</td>
+            <td colspan="3" class="td"><textarea></textarea></td>
+          </tr>
+        
+          <tr>
+            <td>风险评估：</td>
+            <td colspan="3"><textarea></textarea></td>
+          </tr><br/>
+      </table>
+      <input type="submit" class="submit_btn" value="提交">
+      
+	</div>
+    </form>
+    </div>
+    
+    <!-- 项目审批 -->
+    <div class="inner" >
+      <p class="content_title">项目审批</p>
+      <table class="table_project">
+        <tr><th class="project_title">项目名</th><th class="project_intro">简介</th><th class="project_risk">等级</th><th class="project_sta">状态</th><th class="project_fav">收藏</th></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+        <tr><td class="project_title" >啦啦啦啦啦啦啦啦</td><td class="project_intro" maxlength="30">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</td><td class="project_risk" maxlength="10">啦啦啦啦啦</td><td class="project_sta" maxlength="10">啦啦啦啦</td><td class="project_fav">啦啦</td></tr>
+      </table>
+    </div>        
+  </div>
+</div>
+
+
+<div class="footer">
+  <a href="#"><span>四川省政府</span></a>
+  <a href="#"><span>自贡市政府</span></a>
+  <a href="#"><span>自贡市少管所</span></a>
+  <div>copyright 2015</div>
+</div> 
+
+</body>
+</html>

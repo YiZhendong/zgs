@@ -1,0 +1,81 @@
+
+p.title{
+    padding-top: 30px;
+	font-weight: bold;
+    font-size: 26px;
+	color: #666;
+	text-align:center;
+}
+.head_foot_content{
+	margin: 0 auto;
+	margin-top: 30px;
+	width:  860px;
+	height: 600px;
+    border: 3px solid #23a96f;
+	border-radius: 5px;
+}
+.user{
+	width:800px;
+
+	margin: 0 auto;
+}
+.user_id{
+	width: 390px;
+	margin:0 auto;
+    clear: both;
+	}
+.user_id p{
+	margin-top: 20px;
+	float: left;
+	padding-top: 5px;
+	color: #666;
+}
+.user_id input{
+	width:200px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 80px;
+	padding: 3px 10px;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	}
+.level{
+	height: 40px;
+	margin-top: 30px;
+	} 
+.level div{
+	margin-top: 30px;
+	margin-left: 30px;
+	}
+
+.level_option{
+	padding-top: 0;
+    }
+.level_option p{
+	float: left;
+	margin-left: 30px;
+	color: #666;
+	}
+.radio{
+	float: left;
+	width: 30px;
+	margin-left: 10px;
+    }
+.submit{
+    clear: both;
+	width: 100px;
+    padding: 3px 10px;
+    margin-left: 14%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+    background: #096;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+	}	
+.text{
+	margin-top:40px;
+    clear: both;
+	color: #666;
+	}

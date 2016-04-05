@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/address.css">
+<link rel="stylesheet" href="css/offcial_tele.css">
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/tab.js" type="text/javascript"></script>
+
+<title>自贡市项目管理信息系统-个人办公</title>
+</head>
+
+<body>
+<div class="header">
+  <h2 class="logo">自贡市项目管理系统</h2>
+
+</div>    
+ 
+<div class="nav"> 
+  <ul class="nav_first">
+    <li>项目管理
+      <ul class="nav_second">
+        <li>全部项目</li>
+        <li>个人发布</li>
+        <li>添加项目</li>
+        <li>项目审批</li>
+       
+      </ul>      
+    </li>
+    <li>报表查看</li>
+    <li>个人办公
+      <ul class="nav_second">
+        <li>通讯录</li>
+        <li>个人日志</li>
+        <li>收藏夹</li>
+      </ul>
+    </li>
+    <li>个人信息
+      <ul class="nav_second">
+        <li>个人信息查看</li>
+        <li>个人信息修改</li>
+        </ul>
+    </li>
+  </ul>
+</div>
+
+ 
+<div class="container_24 container">
+  <div class="grid_3 nav_left alpha">
+    <ul>
+      <a href="#"><li class="tabli tabIn">日志列表</li></a>
+      <a href="#"><li class="tabli">写日志</li></a>
+      <a href="#"><li class="tabli">通讯录</li></a>
+      <a href="#"><li class="tabli">添加联系人</li></a>
+      <a href="#"><li class="tabli">收藏夹</li></a>
+      
+    </ul>
+  </div>
+  <div class="grid_20 content_right">
+    <!--   1日志列表-->
+    <div class="inner tabCont"></div>
+    
+    <!--   2写日志 -->
+    <div class="inner"></div>    
+     
+     
+     <!-- 3通讯录列表 -->
+    <div class="inner" >
+      <p class="content_title">通讯录</p>
+                 <!--  通讯录卡片 -->
+      <div class="member_list">
+		 <div class="no_line">
+		   <p class="number">001</p>
+		 </div>
+		 <div class="infor">
+		   <p class="id">用户名：林大竣</p>
+		   <p class="phonenum">电话：18011423498</p>
+		   <p class="mail">e-mail:234592032@163.com</p>
+		   <a href="#"><p class="delete">删除</p></a>
+         </div>
+       </div>
+	 </div>    
+     
+     <!--   4添加联系人 -->
+    <div class="inner">
+            <p class="content_title">添加联系人</p>
+      		
+			
+			<div class="add">
+				<form>
+					<div class="add_name"><p>姓名</p><input class="add_input" type="text" placeholder="名字不能超过四个字"></div>
+					<div class="add_tel"><p>电话号码</p><input class="add_input" type="text" placeholder="不可超过16位"></div>
+					<div class="add_name"><p>电子邮箱</p><input class="add_input" type="text" placeholder="支持各种邮箱地址"></div>
+					<input type="submit" class="submit" value="确定"></div>
+				</form>
+			</div>
+		
+    </div>         
+    
+    <!-- 5收藏夹 -->
+    <div class="inner" >
+                <!--  收藏夹卡片 -->
+      <div class="member_list">
+	    <div class="member_line">
+		  <div><p class="member_title">项目名称：</p><p>极限大精在此你还不让路吗哇哈哈</p></div>
+	      <div><p class="member_title">工程名：  </p><p>鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅鹅</p></div>
+		  <div><p class="member_title">简介：    </p><p>九天揽月 九九归真 长长久久 we are one的金茶蛋</p></div>
+		  <div><p class="member_title">等级：    </p><p>8级</p></div>
+		  <div><p class="member_title">状态：    </p><p>待审核</p></div>
+		  <div><p class="member_title">起止时间：</p><p>2013/04/08</p></div>
+	    </div>
+       </div>  
+     </div>  
+             
+          
+  
+  </div>
+</div>
+
+
+<div class="footer">
+  <a href="#"><span>四川省政府</span></a>
+  <a href="#"><span>自贡市政府</span></a>
+  <a href="#"><span>自贡市少管所</span></a>
+  <div>copyright 2015</div>
+</div>  
+</body>
+</html>

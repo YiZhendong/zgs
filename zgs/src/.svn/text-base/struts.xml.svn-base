@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <package name="cm" extends="struts-default">
+         <action name="Zhuceaction" class="com.hwadee.zgs.action.Zhuceaction">
+              <result name="index" type="redirect">index.html</result>
+         </action>
+         <action name="Addlistaction" class="com.hwadee.zgs.action.Addlistaction">
+              <result name="index" type="redirect">offical.jsp</result>
+         </action>
+         <action name="Xinxiguanliaction" class="com.hwadee.zgs.action.Xinxiguanliaction">
+              <result name="index" type="redirect">personal_info.jsp</result>
+         </action>
+         <action name="Xiangmuguanliaction" class="com.hwadee.zgs.action.Xiangmuguanliaction">
+              <result name="index" type="redirect">project_manage.jsp</result>
+         </action>
+         <action name="Xinxigongkaiaction" class="com.hwadee.zgs.action.Xinxigongkaiaction">
+              <result name="update" type="redirect">project_manage.jsp</result>
+              <result name="list">/table_baobiao.jsp</result>
+         </action>
+         <action name="Favoriteaction" class="com.hwadee.zgs.action.Favoriteaction">
+              <result name="index" type="redirect">project_manage.jsp</result>
+              <result name="mod" type="redirect">table_baobiao.jsp</result>
+              
+         </action>
+        <action name="Logaction" class="com.hwadee.zgs.action.Logaction">
+              <result name="index" type="redirect">offical.jsp</result>
+              <result name="mod">offical_log.jsp</result>
+         </action>
+    </package>
+</struts>    

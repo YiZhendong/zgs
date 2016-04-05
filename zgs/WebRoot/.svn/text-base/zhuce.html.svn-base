@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>   
+<head>      
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/reg.css">
+</head>
+<title>项目管理信息注册</title>
+<body>
+	<div class="head_foot_content">
+		<p class="title">注册</p>
+			<div class="user">
+				<form id="Zhuce" action="Zhuceaction!add.action" method="post">
+					<div class="user_id"><p>昵称</p><input class="user_input" type="text" name="user.userName" placeholder="输入自己萌萌的昵称吧"/></div>
+					<div class="user_id"><p>密码</p><input class="user_input" type="password" name="user.password" placeholder="密码交出来"/></div>
+					<div class="user_id"><p>邮箱</p><input class="user_input" type="text" name="user.email" placeholder="不会给你发垃圾邮件哒"/></div>
+					<div class="user_id"><p>联系方式</p><input class="user_input" type="text" name="user.telenum" placeholder="求骚扰"/></div>
+					<div class="user_id"><p>请识别您的身份</p><input class="user_input" type="text" name="user.level" placeholder="求骚扰"/></div>
+					<div><input type="submit" class="submit" value="注册"></div>
+	             </form>
+           </div>
+     </div>
+</body>
+</head>
+</html>

@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*样式清理*/
+*{
+	margin:0px;    /*外侧边框*/
+	padding:0px;   /*内侧边框*/
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+ul{list-style:none;}
+ul+span
+{
+	float:right;
+	color:#666;
+	padding-bottom:10px;
+	
+}
+/*主体样式*/
+body{
+	background:#eee;
+	font-size:14px;
+	color:#333;}
+
+.header{
+	height: 100px;
+	color: #fff;
+	background: #428b55;
+	}
+.logo{
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 28 px;
+	}
+.log_reg_btn{
+	float: right;
+	width: 90px;
+	height: 30px;
+	padding-top: 4px;
+	margin-top: 8px;
+	margin-right: 30px;
+	clear: right;
+	text-align: center;
+	border-radius: 3px;
+	border: 2px solid #fff;}		
+
+.log_reg_btn:hover{
+	color: #428b55;
+	background: #fff;
+	transition: .3s;
+	}	
+	
+.container{
+	position:relative;
+	z-index:1;
+	}	
+	/* news_list_title*/
+.news_list{
+	height:400px;
+	margin-top: 25px;
+	margin-bottom: 85px;
+	background: #fff;
+	padding-top: 10px;
+	border-radius:3px;
+	line-height:24px;
+	}
+.news_list_title{
+	color: #428b55;
+	padding-left: 10px;
+	font-weight: normal;
+	}
+.news_list_title_ul{
+	min-height: 300px;
+	
+}	
+.news_list_title_ul li:hover{
+    text-decoration:underline;
+	color: #428b55;	
+	}
+    /*footer*/
+.footer{
+	position: fixed;
+	bottom: 0px;
+    color: #aaa;
+    background: #152239;
+	height: 50px;
+	width: 100%;
+	font-size: 12px;	
+	text-align: center;
+	z-index: 11;
+	}
+.footer span{
+	margin-left: 20px;
+	}	
+.footer a:hover{
+	color: #fff;
+	}
+.footer1{
+	
+	position:absolute;
+	bottom: 0px;
+	width: 120%;
+	color: #aaa;
+    background: #152239;
+	height: 50px;
+	width: 100%;
+	font-size: 12px;	
+	text-align: center;
+	
+}
+
+/*login add*/
+
+.nav{
+	position:relative;
+    width: 100%;
+	height: 40px; 
+	margin-top: -20px;
+	background: #007130;
+	z-index:10;
+	}
+	
+.nav_first li{
+	height:30px;
+	width:100px;
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+	text-align: center;
+	color: #eee;
+
+	
+	}	
+.nav_first li:hover{
+	background: #80c269;
+	transition: .3s;
+	}	
+
+
+
+.nav_second{
+	margin-top:8px;
+    display:none;
+	}
+
+.nav_first li:hover .nav_second{
+	
+	display:block;
+	}
+	
+.nav_second li{
+	
+	height: 30px;
+	width: 100px;
+    margin-left: 0px;
+	text-align: center;
+	color: #eee;
+	background: #007130;
+	
+	}	
+.nav_second li:hover{
+	background: #80c269;
+	transition: .3s;
+	}			
+	
+.nav_first li:hover nav_second{
+	display:block;
+	}	
+
+
+/*offical  projectmanage  personalimformation*/
+/* navigation*/
+.nav_left{
+	min-height: 100px;
+	margin-top: 25px;
+	border: 1px solid #007130;
+	border-radius: 3px;
+	}
+.nav_left ul li{
+	margin:0 auto;
+	width: 70px;
+	border-bottom: 2px dotted #999;
+	padding: 3px 5px;
+	margin-top: 20px;
+	text-align: center; 
+	}
+.nav_left ul li:hover{
+ 
+	border-bottom: 2px solid #007130;
+	color: #007130;
+	transition: 0.3s
+	}			
+/* right content*/
+.content_right{
+	
+	margin-top: 25px;
+	margin-bottom: 85px;
+	min-height: 400px;
+	background: #fff;
+	border-radius: 3px;
+	}
+.content_title{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #428b55;
+	font-size:20px;
+	
+	}
+.table_project{
+	clear: left;
+	width: 750px;
+	margin: 0 auto;
+	table-layout:fixed;  /*  控制td内容不溢出 */
+	}		
+.table_project th{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 10px;
+	font-weight: bold;
+    height: 30px;
+	}
+.table_project td{
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 2px 10px;
+	  /*  表格超出部分不换行 */
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	}	
+.project_title{
+	width: 130px;
+	}
+.project_intro{
+	width: 270px;
+	
+	}
+.project_risk{
+	width: 50px;
+	}
+.project_sta{
+	width:50px;
+	}
+.project_fav{
+	width: 50px;
+	}
+.inner{
+    display: none;	
+	}
+
+
+.tabCont{ display:block;}				
+
+
+/* 报表 */
+.table_check{
+	min-height: 400px;
+	background: #fff;
+	margin-top: 25px;
+	margin-bottom: 85px;
+	border-radius: 3px;
+	}
+.search_select_option{
+    
+	margin-left: 70px;
+	float: left;
+	}
+.search_select_option p{
+	margin-right:20px;
+	float: left;
+	color: #007130;
+	}
+.search_button{
+	margin-left: 70px;
+	width: 70px;
+	padding: 2px 10px;
+	border: 1px solid #007130;
+	color: #007130;
+	text-align: center;
+	border-radius: 3px;
+	}			
+/*   choose page */
+.whole_page p{
+    float: left;
+    margin-left:  50px;
+
+
+}	
+
+		

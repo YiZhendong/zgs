@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/index.css">
+
+
+<title>自贡市项目管理信息系统</title>
+</head>
+
+<body>
+<div class="header">
+  <h2 class="logo">自贡市项目管理系统</h2>
+  <a href="zhuce.html"><div class="log_reg_btn">注册</div></a>
+  <a href="login.html"><div class="log_reg_btn">登录</div></a> 
+</div>    
+   
+<div class="container_24">
+  <div class="grid_7 news_list">
+    <h4 class="news_list_title">焦点新闻</h4>
+    <ul class="news_list_title_ul">
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+    </ul>
+  </div>
+  
+  <div class="grid_7 news_list">
+    <h4 class="news_list_title">政策概览</h4>
+    <ul class="news_list_title_ul">
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+    </ul>
+  </div>
+
+  
+  <div class="grid_10 news_list">
+      <h4 class="news_list_title">项目概览</h4>
+    <ul class="news_list_title_ul">
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+      <a href="#"><li>啦啦啦啦啦啦啦啦啦啦啦啦...</li></a>
+    </ul>
+  </div>
+</div>
+<div class="footer">
+  <a href="#"><span>四川省政府</span></a>
+  <a href="#"><span>自贡市政府</span></a>
+  <a href="#"><span>自贡市少管所</span></a>
+  <div>copyright 2015</div>
+</div>  
+</body>
+</html>

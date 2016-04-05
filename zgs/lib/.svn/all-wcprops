@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/r1/!svn/ver/247/zgs/lib
+END
+rowset.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/r1/!svn/ver/247/zgs/lib/rowset.jar
+END
+commons-dbutils-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/r1/!svn/ver/247/zgs/lib/commons-dbutils-1.6.jar
+END
+mysql-connector-java-5.1.12-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/r1/!svn/ver/247/zgs/lib/mysql-connector-java-5.1.12-bin.jar
+END
